@@ -1,0 +1,11 @@
+.Home {
+    background-color: aquamarine;
+    font-size: x-large;
+    -webkit-text-fill-color: #203959;
+    width: 46vh;
+    cursor: pointer;
+}
+
+.Home:hover {
+    background-color: #00ffaa;
+}

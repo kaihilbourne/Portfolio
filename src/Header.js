@@ -1,15 +1,14 @@
-import './App.css';
-import HomeButton from './Navigation/HomeButton';
-import {Flex} from "@chakra-ui/react"
+import './Header.css';
+import {HomeButton, AboutButton, ProjectsButton, EduButton} from './Navigation/NavButton';
 
 export default function Header(){
     return(
-        <>
-            <Flex>
-                <HomeButton/>
-                <p>Burgernonomous</p>
-            </Flex>
-            
-        </>
+        <div className='container'>
+            <div className='item'><HomeButton/></div>
+            <div className='item'><AboutButton/></div>
+            <div className='item'><ProjectsButton/></div>
+            <div className='item'><EduButton/></div>
+        
+        </div>
     );
 }

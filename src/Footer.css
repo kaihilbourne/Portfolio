@@ -1,0 +1,10 @@
+.container {
+    position: fixed;
+    display: grid;
+    height: 2vh; /* Full viewport height */
+    justify-items: center; /* Center items horizontally */
+  }
+
+.link {
+    -webkit-text-fill-color: #ffffff;
+}
