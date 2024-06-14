@@ -1,7 +1,6 @@
 .container {
-    position: fixed;
     display: grid;
-    height: 2vh; /* Full viewport height */
+    height: 8vh;
     justify-items: center; /* Center items horizontally */
   }
 

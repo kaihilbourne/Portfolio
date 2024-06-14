@@ -1,0 +1,43 @@
+
+.left-side {
+    text-align: left;
+}
+
+.left-side:hover {
+    background-color: #1d8372;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.right-side {
+    text-align: right;
+}
+
+.bodytext {
+    color: white;
+    font-size: calc(7px + 2vh);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    /* background-color: blueviolet; */
+    
+}
+
+.header {
+    color: white;
+    font-size: calc(40px + 2vh);
+    left: 50%;
+    top: 50%;
+    transform: translate(80%,20%);
+    
+}
+
+.underline {
+    text-decoration: underline;
+}
