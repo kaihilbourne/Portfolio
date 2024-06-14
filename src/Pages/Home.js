@@ -36,7 +36,7 @@ export default function Home(){
                 I'm a computer science graduate, and I love building things and learning new technologies.
               </p>
               <p>
-                I'm looking for a great company where I can work on interesting problems, and start my career.
+                I'm looking for a great company where I can work on interesting problems and start my career.
               </p>
             </div>
             <img 
