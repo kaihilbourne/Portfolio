@@ -4,7 +4,7 @@
 }
 
 .left-side:hover {
-    background-color: #1d8372;
+    background-color: #4e66a1;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
@@ -34,10 +34,16 @@
     font-size: calc(40px + 2vh);
     left: 50%;
     top: 50%;
-    transform: translate(80%,20%);
+    transform: translate(50%,20%);
     
 }
 
+.subheader {
+    color: white;
+    font-size: calc(7px + 2vh);
+}
+
 .underline {
+    color: white;
     text-decoration: underline;
 }

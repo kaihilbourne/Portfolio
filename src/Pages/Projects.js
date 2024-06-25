@@ -1,13 +1,39 @@
 import '../App.css'
+import vr from '../utensilevr.jpg'
 
 export default function Projects(){
     return(
         <div className='App'>
-            <header className="App-header">
-                <p>
-                    one time I built a little bluetooth controlled lightswitch with an arduino. I connected it to my computer so I could type 1 or 2 and get different lights
-                </p>
-            </header>
+            <div className='left-side'>
+                <div className='bodytext'>
+                    <img 
+                        className='items'
+                        src={vr}
+                        height={"25%"} 
+                        width={"25%"}
+                        alt="UCSB logo"
+                    />
+                    <div className='items'>
+                        <p>
+                            <span className='underline'> Utensile VR</span> 2023-2024, Utensile
+                        </p>
+                        <p>
+                            Utensile VR is an app for product designers, available on Meta Quest headsets. 
+                            Users can import .obj files (from CAD programs) to their headsets, and view and interact with their models.
+                        </p>
+                        <p>
+                            This app is designed to be simple and intuitive. Grip buttons let you pick up or stretch objects, 
+                            and trigger buttons let you teleport for easy transportation.
+                        </p>
+                        <p>
+                            My favorite accomplishment in developing this app is a mesh optimization algorithm that fixed a nasty bug.
+                        </p>
+                        <p>
+                            Utensile VR is available as a beta release in the <a className='underline' href="https://www.oculus.com/experiences/9603097363095403/release-channels/1684108105344912/?token=rxt2JX5s">App Lab</a> for Quest owners.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

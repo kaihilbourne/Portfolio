@@ -1,7 +1,8 @@
 .App {
+  font-family: Monaco, Monaco, monospace;
   text-align: center;
   min-height: 100vh;
-  background-color: #146356;
+  background-color: #3a5498;
 }
 
 .App-logo {

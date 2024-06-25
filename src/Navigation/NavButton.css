@@ -1,11 +1,12 @@
 .Home {
-    background-color: aquamarine;
+    background-color: #5673bc;
     font-size: x-large;
-    -webkit-text-fill-color: #203959;
+    color: white;
     width: 24.6vw;
     cursor: pointer;
+    font-family: Monaco, Monaco, monospace;
 }
 
 .Home:hover {
-    background-color: #00ffaa;
+    background-color: #3a5498;
 }

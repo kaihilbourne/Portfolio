@@ -5,6 +5,8 @@ import vrproject_gif from '../vrproject.gif'
 import melookincool from '../melookincool.JPG'
 import megraduating from '../megraduating.JPG'
 import codingmeme from '../codingmeme.PNG'
+import mehandstand from '../mehandstand.jpg'
+import mecraterlake from '../mecraterlake.jpg'
 
 
 export default function Home(){
@@ -24,6 +26,7 @@ export default function Home(){
               <p >
                 Hi! I'm Kai.
               </p>
+              <p className='subheader'>Your next software engineer?</p>
               
             </div>
             
@@ -70,8 +73,13 @@ export default function Home(){
                 I've worked with a lot of different technologies.
               </p>
               <p>
-                I built the VR app using <span className='underline'>Unity</span> and <span className='underline'>C#</span> scripting. I made this website with <span className='underline'>ReactJS</span>. I've worked with <span className='underline'>C++</span> in countless data structures and algorithms courses. I regularly use <span className='underline'>Python</span> for machine learning, as well as other random scripting use-cases.
-                I've worked with <span className='underline'>Arduino</span> microprocessors. I organize things with <span className='underline'>spreadsheets</span>, and I've got a good foundation in <span className='underline'>SQL</span> from a databases class.
+                I built the VR app using <span className='underline'>Unity</span> and <span className='underline'>C#</span> scripting. 
+                I made this website, and others, with <span className='underline'>ReactJS</span>. 
+                I've worked with <span className='underline'>C++</span> in countless data structures and algorithms courses. 
+                I regularly use <span className='underline'>Python</span> for machine learning, as well as other random scripting tasks.
+                I've worked with <span className='underline'>Arduino</span> microprocessors. 
+                I organize things with <span className='underline'>spreadsheets</span>, 
+                and I've got a good foundation in <span className='underline'>SQL</span> from a databases class.
               </p>
             </div>
             <img 
@@ -87,10 +95,10 @@ export default function Home(){
           <div className='bodytext'>
             <img 
                   className='items'
-                  src={megraduating}
+                  src={mehandstand}
                   height={"25%"} 
                   width={"25%"}
-                  alt="Me wearing my cap and gown"
+                  alt="Me doing a handstand on a frozen lake in front of Mount Hood"
             />
             <div className='items'>
               <p>
@@ -100,6 +108,23 @@ export default function Home(){
                 Deep Learning, Cryptography, Computer Vision, Data Structures and Algorithms, Database Management Systems
               </p>
             </div>
+            </div>
+        </div>
+        <div className='left-side'>
+          <div className='bodytext'>
+
+          <div className='items'>
+              <p >
+                I'm very excited to start my career. Shoot me an email at <a className='underline' href='mailto:kaihilbourne@gmail.com'>kaihilbourne@gmail.com</a> if you'd like to connect!
+              </p>
+            </div>
+            <img 
+                  className='items'
+                  src={mecraterlake}
+                  height={"25%"} 
+                  width={"25%"}
+                  alt="Me at crater lake"
+              />
             </div>
         </div>
       </div>
