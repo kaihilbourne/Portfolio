@@ -1,7 +1,7 @@
 
 import '../App.css'
-import skiprock from '../skiprock.jpg'
-import george from '../sneorge.jpg'
+import skiprock from '../images/skiprock.jpg'
+import george from '../images/sneorge.jpg'
 
 export default function About(){
     return(

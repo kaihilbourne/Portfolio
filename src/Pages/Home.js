@@ -1,12 +1,12 @@
 
 import '../App.css';
 import './Pages.css'
-import vrproject_gif from '../vrproject.gif'
-import melookincool from '../melookincool.JPG'
-import megraduating from '../megraduating.JPG'
-import codingmeme from '../codingmeme.PNG'
-import mehandstand from '../mehandstand.jpg'
-import mecraterlake from '../mecraterlake.jpg'
+import vrproject_gif from '../images/vrproject.gif'
+import melookincool from '../images/melookincool.JPG'
+import megraduating from '../images/megraduating.JPG'
+import codingmeme from '../images/codingmeme.PNG'
+import mehandstand from '../images/mehandstand.jpg'
+import mecraterlake from '../images/mecraterlake.jpg'
 
 
 export default function Home(){

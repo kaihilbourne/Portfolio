@@ -1,6 +1,6 @@
 import '../App.css'
-import ucsb from '../university-of-california-santa-barbara.png'
-import deeplearning from '../dlaipng.png'
+import ucsb from '../images/university-of-california-santa-barbara.png'
+import deeplearning from '../images/dlaipng.png'
 
 export default function Edu(){
     return(

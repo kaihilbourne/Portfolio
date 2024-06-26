@@ -1,8 +1,10 @@
 import '../App.css'
+import '../Pages/Pages.css'
 
 export default function Hypnosis(){
     return(
         <div>
+            <p className='underline'>OOOOHHHHHH yooouuu want to hire meeeee</p>
             <img src="https://cdn.picpng.com/hypnosis/hypnosis-spiral-round-circular-88460.png" 
             className="App-logo" 
             alt="oooohhhhoooo you want to hire me" />

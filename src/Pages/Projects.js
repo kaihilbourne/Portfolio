@@ -1,5 +1,5 @@
 import '../App.css'
-import vr from '../utensilevr.jpg'
+import vr from '../images/utensilevr.jpg'
 
 export default function Projects(){
     return(
